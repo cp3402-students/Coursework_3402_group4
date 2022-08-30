@@ -1,6 +1,6 @@
 <H1>30 AUG 2022</H1>
 <p>time: 19:00 - 19:30</P>
-<p>member: Zhang Yaowen absence</p>
+<p>member: no people absence</p>
 <p>tools discuss: figma and discord</p>
 <p>topic meeting: discuss on project (small meeting)</p>
 <H2>information</H2>
