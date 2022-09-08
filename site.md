@@ -7,11 +7,28 @@ To provide a maintainable and updatable site for Baizonn Learning Centre, this d
 
 Pages
 
+1.Index
+2.About us
+3.Registration 
+4.Schedule
+5.Events
+6.Our Staffs
+7.Locations/Transportation 
+
+
 Posts
 
 Plugins
+1.Simple Custom CSS and JS
+2.Big File Uploads
+3.Forminator
+4.All-in-One WP Migration
+5.Simply Schedule Appointments
+6.WP Go Maps (formerly WP Google Maps)
+7.The Events Calendar
 
-Site developmenta   
+Site development
+
 
 This site is built using Wordpress
 So the site manager should download Wordpress CMS from wordpress.org
