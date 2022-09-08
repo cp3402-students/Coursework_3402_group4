@@ -17,6 +17,10 @@
 </ol>
 
 <H2>Posts</H2>
+<ol>
+<li>Events</li>
+<li>Teachers</li>
+</ol>
 
 <H2>Plugins</H2>
 <ol>
