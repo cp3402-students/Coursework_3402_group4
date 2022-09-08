@@ -1,0 +1,271 @@
+body.dashboard_page_health-check {
+	/* Tools screen styles */
+	/* Diff viewer styles */
+}
+
+body.dashboard_page_health-check .health-check-table thead th:first-child,
+body.dashboard_page_health-check .health-check-table thead td:first-child {
+	width: 20%;
+}
+
+body.dashboard_page_health-check .health-check-table tbody td {
+	width: 80%;
+}
+
+body.dashboard_page_health-check .health-check-table tbody td:first-child {
+	width: 20%;
+}
+
+body.dashboard_page_health-check .health-check-table tbody td ul,
+body.dashboard_page_health-check .health-check-table tbody td ol {
+	margin: 0;
+}
+
+body.dashboard_page_health-check .pass:before,
+body.dashboard_page_health-check .good:before {
+	content: "\f147";
+	display: inline-block;
+	color: #46b450;
+	font-family: dashicons;
+}
+
+body.dashboard_page_health-check .warning:before {
+	content: "\f460";
+	display: inline-block;
+	color: #ffb900;
+	font-family: dashicons;
+}
+
+body.dashboard_page_health-check .info:before {
+	content: "\f348";
+	display: inline-block;
+	color: #00a0d2;
+	font-family: dashicons;
+}
+
+body.dashboard_page_health-check .fail:before,
+body.dashboard_page_health-check .error:before {
+	content: "\f335";
+	display: inline-block;
+	color: #dc3232;
+	font-family: dashicons;
+}
+
+body.dashboard_page_health-check .spinner {
+	float: none;
+}
+
+body.dashboard_page_health-check .file-integrity-table thead th:first-child,
+body.dashboard_page_health-check .file-integrity-table thead td:first-child,
+body.dashboard_page_health-check .file-integrity-table tbody th:first-child,
+body.dashboard_page_health-check .file-integrity-table tbody td:first-child,
+body.dashboard_page_health-check .file-integrity-table tfoot th:first-child,
+body.dashboard_page_health-check .file-integrity-table tfoot td:first-child {
+	text-align: center;
+	width: 60px;
+}
+
+body.dashboard_page_health-check .tools-email-table {
+	border: 0;
+	box-shadow: none;
+}
+
+body.dashboard_page_health-check .tools-email-table td:first-child {
+	width: 280px;
+}
+
+@media (max-width: 768px) {
+	body.dashboard_page_health-check .tools-email-table td {
+		display: block;
+	}
+}
+
+body.dashboard_page_health-check .tools-email-table input {
+	width: 100%;
+}
+
+body.dashboard_page_health-check .tools-email-table label {
+	display: block;
+	clear: both;
+}
+
+body.dashboard_page_health-check #health-check-mail-check,
+body.dashboard_page_health-check #health-check-file-integrity {
+	margin-bottom: 15px;
+}
+
+body.dashboard_page_health-check #health-check-diff-modal {
+	width: 100vw;
+	height: 100%;
+	position: fixed;
+	top: 0;
+	left: 0;
+	background: rgba(0, 0, 0, 0.7);
+	display: none;
+	z-index: 99999;
+}
+
+body.dashboard_page_health-check #health-check-diff-modal #health-check-diff-modal-content {
+	background: #fff;
+	height: calc(100% - 120px);
+	width: calc(100% - 120px);
+	margin-top: 40px;
+	margin-left: 40px;
+	padding: 20px;
+	display: block;
+}
+
+body.dashboard_page_health-check #health-check-diff-modal #health-check-diff-modal-diff {
+	width: 100%;
+	height: calc(100% - 80px);
+	overflow-y: auto;
+	display: block;
+	position: relative;
+}
+
+body.dashboard_page_health-check #health-check-diff-modal #health-check-diff-modal-diff table.diff td:nth-child(2) {
+	background: #f3f3f3;
+}
+
+body.dashboard_page_health-check #health-check-diff-modal-close-ref {
+	position: relative;
+	display: block;
+	float: right;
+	color: #000;
+	text-decoration: none;
+}
+
+/* Accordion styles */
+.health-check-accordion {
+	border: 1px solid #d1d1d1;
+	border-radius: 0.3em;
+	box-shadow: 0 1px 2px #d1d1d1;
+}
+
+.health-check-accordion > * + * {
+	border-top: 1px solid #d1d1d1;
+}
+
+.health-check-accordion dt {
+	font-weight: 600;
+}
+
+.health-check-accordion dt:first-child {
+	border-radius: 0.3em 0.3em 0 0;
+}
+
+.health-check-accordion .health-check-accordion-trigger {
+	background: #fff;
+	border: 0;
+	color: #212121;
+	display: block;
+	font-size: 1rem;
+	font-weight: 400;
+	margin: 0;
+	padding: 1em 1.5em;
+	position: relative;
+	text-align: left;
+	width: 100%;
+}
+
+.health-check-accordion .health-check-accordion-trigger:hover, .health-check-accordion .health-check-accordion-trigger:focus, .health-check-accordion .health-check-accordion-trigger:active {
+	background: #dedede;
+}
+
+.health-check-accordion .health-check-accordion-trigger .title {
+	display: block;
+	pointer-events: none;
+}
+
+.health-check-accordion .health-check-accordion-trigger .icon {
+	border: solid #9e9e9e;
+	border-width: 0 2px 2px 0;
+	height: 0.5rem;
+	pointer-events: none;
+	position: absolute;
+	right: 1.5em;
+	top: 50%;
+	transform: translateY(-60%) rotate(45deg);
+	width: 0.5rem;
+}
+
+.health-check-accordion .health-check-accordion-trigger[aria-expanded="true"] .icon {
+	transform: translateY(-50%) rotate(-135deg);
+}
+
+.health-check-accordion .health-check-accordion-panel {
+	margin: 0;
+	padding: 1em 1.5em;
+	background: #fff;
+}
+
+.health-check-accordion .health-check-accordion-panel > div {
+	display: block;
+}
+
+.health-check-accordion .health-check-accordion-panel[hidden] {
+	display: none;
+}
+
+.health-check-accordion dl dd {
+	margin: 0 0 0.5em 2em;
+}
+
+/* Modal styles */
+.health-check-modal {
+	display: none;
+	position: absolute;
+	z-index: 1000;
+	padding-top: 50px;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	overflow: auto;
+	background-color: black;
+	background-color: rgba(0, 0, 0, 0.4);
+}
+
+@media all and (min-width: 1024px) {
+	.health-check-modal {
+		padding-top: 100px;
+	}
+}
+
+.health-check-modal.show {
+	display: block;
+}
+
+.health-check-modal .modal-content {
+	background-color: #fefefe;
+	margin: auto;
+	padding: 20px;
+	border: 1px solid #888;
+	width: 90%;
+}
+
+@media all and (min-width: 1024px) {
+	.health-check-modal .modal-content {
+		width: 30%;
+	}
+}
+
+.health-check-modal .modal-content .modal-close {
+	color: #aaa;
+	float: right;
+	font-size: 28px;
+	font-weight: 600;
+	cursor: pointer;
+}
+
+.health-check-modal .modal-content #dynamic-content {
+	display: block;
+	width: 100%;
+}
+
+.health-check-modal .modal-close:hover, .health-check-modal .modal-close:focus {
+	color: #aaa;
+	float: right;
+	font-size: 28px;
+	font-weight: 600;
+}

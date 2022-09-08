@@ -1,0 +1,42 @@
+.unsupported {
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	margin: 0 auto;
+	max-width: 420px;
+	padding: 36px;
+	position: relative;
+	text-align: center;
+}
+
+.unsupported-container {
+	bottom: 0;
+	left: 0;
+	padding: 40px;
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+
+h1.unsupported-label {
+	font-size: 26px;
+	font-weight: 500;
+	line-height: 40px;
+}
+
+p.unsupported-description {
+	font-size: 16px;
+	line-height: 24px;
+	margin: 1em 0;
+}
+
+img.unsupported-icon {
+	height: auto;
+	margin: 0;
+	max-width: 100%;
+}
+
+#ssa-unsupported {
+	display: none;
+}

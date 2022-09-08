@@ -1,0 +1,30 @@
+html[class],
+html[id] {
+	margin-top: 0 !important;
+}
+
+@media screen and (max-width: 782px) {
+	html[class],
+	html[id] {
+		margin-top: 0 !important;
+	}
+}
+
+html,
+html body {
+	margin: 0;
+	padding: 0;
+}
+
+html body.md-theme-default {
+	background: white;
+	padding: 1rem;
+}
+
+html #wpadminbar {
+	display: none !important;
+}
+
+html #app {
+	padding: 0;
+}

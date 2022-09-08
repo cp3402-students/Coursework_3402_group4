@@ -1,0 +1,20 @@
+{
+  "generator-plugin-wp": {
+    "name": "Simply Schedule Appointments",
+    "homepage": "https://simplyscheduleappointments.com",
+    "description": "Easy appointment scheduling",
+    "version": "0.0.0",
+    "author": "N Squared",
+    "authoremail": "support@simplyscheduleappointments.com",
+    "authorurl": "http://nsqua.red",
+    "license": "GPLv2",
+    "slug": "simply-schedule-appointments",
+    "classname": "Simply_Schedule_Appointments",
+    "mainclassname": "Simply_Schedule_Appointments",
+    "classprefix": "SSA_",
+    "prefix": "ssa",
+    "year": 2017,
+    "currentVersionWP": "4.7.2",
+    "plugingenversion": "0.19.7"
+  }
+}

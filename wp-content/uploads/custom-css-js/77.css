@@ -1,0 +1,75 @@
+<!-- start Simple Custom CSS and JS -->
+<style type="text/css">
+/* Add your CSS code here.
+
+For example:
+.example {
+    color: red;
+}
+
+For brushing up on your CSS knowledge, check out http://www.w3schools.com/css/css_syntax.asp
+
+End of comment */ 
+
+.alignwide {
+    min-width: 100%;
+	margin-left: 0px;
+	margin-right: 0px;
+}
+
+
+header {
+	width:100%;
+	border-bottom: 5px solid #F2F1F1;
+}
+
+.alignfull{
+	width:100%;
+}
+
+.wp-block-navigation .wp-block-navigation-item__label {
+	font-family: 'Open Sans';
+	font-size: 24px;
+	font-weight: bold;
+}
+
+.wp-block-navigation .wp-block-navigation-item a:hover,
+.wp-block-navigation .wp-block-navigation-item a:focus {
+	text-decoration: underline;
+	text-decoration-style: solid;
+	color:#168C4B;
+}
+
+.logo_text1 .logo_text2 {
+	font-family: 'Roboto Mono';
+	 text-align: center;
+	
+}
+
+.logo_text1 {
+	letter-spacing: 1.4em;
+}
+
+.logo_text1 .span0 {
+	font-size: 85px;
+	color:#1174B0;
+}
+
+
+.logo_text1 .span1 {
+	font-size: 60px;
+	color:#1174B0;
+}
+
+
+.logo_text1 .span2 {
+	font-size: 60px;
+	color:#168C4B;
+}
+
+.logo_text2 {
+	font-size: 24px;
+	font-weight: bold;
+	letter-spacing: 0.2em;
+}</style>
+<!-- end Simple Custom CSS and JS -->
