@@ -54,7 +54,7 @@ class SSA_Developer_Settings extends SSA_Settings_Schema {
 		}
 
 		$this->schema = array(
-			'version' => '2022-01-12',
+			'version' => '2022-05-13',
 			'fields' => array(
 				'enabled' => array(
 					'name' => 'enabled',
@@ -80,6 +80,12 @@ class SSA_Developer_Settings extends SSA_Settings_Schema {
 				// Calendar Events Customization
 				'beta_calendar_events' => array(
 					'name' => 'beta_calendar_events',
+					'default_value' => false
+				),
+
+				// Booking App V2
+				'beta_booking_app' => array(
+					'name' => 'beta_booking_app',
 					'default_value' => false
 				),
 
