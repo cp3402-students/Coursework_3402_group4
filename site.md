@@ -69,13 +69,21 @@ and other general site configuration required to effectively maintain and update
 
    Below that is a section which prompts visitors to book a session from the learning centre by emphasising variety
    of the learning centre's strength. A CTA block is also there to lead user try out the booking system. Right below it,
-   there is an appointment booking form which enable visitor to book
-   a session via the website, and this feature is provided by the appointment booking form plugin.
+   there is an appointment booking form which enable visitor to book a session via the website,
+   and this feature is provided by the appointment booking form plugin.
 
 6. #### Our Staffs
-
+   This page is the place that have a display of the staff(teacher in this case). There are two media&text block used
+   here for displaying the content with image. Both text content and the image can be changed via WordPress editor.
 
 7. #### Locations/Transportation
+   For this location and transportation page, when you enter it, the first sight would be seen is the map block that
+   shows where is the learning centre. This feature is provided via **WP Go Maps** plugin. The default location of the
+   map shows can be changed with the plugin setting.
+
+   Below the map, there are three section display route information to get to the learning centre. There are created
+   with column block. Everything can be changed here, from the image to the route description for different
+   transportations.
 
 ## Posts
 
