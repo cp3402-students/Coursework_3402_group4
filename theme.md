@@ -24,6 +24,7 @@ Look inside the theme folder, we have mutiple files and folder, each one of cont
   - style.css: This is Cascading Style Sheets define styles for all theme file, we link and define styles for header, footer and other using specified class tag.
 
 ## Theme features
+When designing a theme feature, we found that there were many features we needed to take into account. However, due to the information given by the customer, we think that only the most important functions are included, so that the customer can understand at once
 
 ## Design Structure
 The Design in wordpress inherit our design in figma, using figma save us lots of times, so we impletment our design without doubt and concerns.
