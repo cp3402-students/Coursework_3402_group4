@@ -26,21 +26,45 @@ Look inside the theme folder, we have mutiple files and folder, each one of cont
 ## Theme features
 
 ## Design Structure
+The Design in wordpress inherit our design in figma, using figma save us lots of times, so we impletment our design without doubt and concerns.
 
 
 ### Typology 
+
+
 font type:
+We select Open Sans for most of the text since it is a simple and elegant font that will make the website more interesting and attract more user to eventually suscribe the courses on the Website. Roboto Mono is a 
+- header: use Roboto Mono in logo, use Open Sans for others
+- body: use Open Sans
+- footer use Open Sans
 
-font weight:
+font weight: Normal for normal text, bold for header
 
-font size:
+font size: 32px for normal text, size for title vary depend on the use case
+
+letter spacing: 0% for normal text in body and footer. In header, use 40% and 20% for big title and small title in logo, 0% for others.
+
+
 
 ### Colours
-background colour
+common background colour: 
+white (white), 
+light grey (#F6F6F6), 
 
-text colour
+
+common text colour:
+vivid green (#00d084)
+black (black)
+dark blue (#164570)
 
 ### structure
-margin
+margin:
+edit in wordpress:
 
-padding
+padding: 
+We apply padding to both left and right, which make the page tidy and have better viewing experience.
+left: 5% 
+right: 5%
+
+responsive header for PC with narrow screen resoltion using 
+
