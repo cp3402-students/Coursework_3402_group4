@@ -16,24 +16,31 @@ Our theme originated from the default theme twenty-twenty-two, the default theme
 Look inside the theme folder, we have mutiple files and folder, each one of control some aspects of how the theme is display. These files are crucial to change and update the theme. Below is a summary and explanation for the most important files and sub-folders : 
 - BLC-theme
   -  templates (sub-folder): this folder contain html templates that used to generate the theme of all pages. 
-    -  page.html: This is the one we used althrough it does't contain the actual footer and navigation bar which is load from the theme parts, it define    the general structure and layout of the theme.
-      -  
-
-### templates (sub-folder)
-
-
-### parts (sub-folder)
-
-### index.php
-
-### style.css
+    -  page.html: This is the theme template we used althrough it does't contain the actual footer and navigation bar which is load from the theme parts, it define the general structure and layout of the theme.
+  -  parts (sub-folder): this the folder contains all template parts such as header (navigation bar) and footer 
+    -  header.html: This is the footer template we define the navigation bar, html class tag is specific so we can define css style later.
+    -  footer.html: This is the header template we define the footer, html class tag is specific so we can define css style later.
+  - index.php: This is the php file merge the theme with the actual webpages, and generate the actual html, css, javascript codes for individual webpages.
+  - style.css: This is Cascading Style Sheets define styles for all theme file, we link and define styles for header, footer and other using specified class tag.
 
 ## Theme features
 
 ## Design Structure
 
+
 ### Typology 
+font type:
+
+font weight:
+
+font size:
 
 ### Colours
+background colour
+
+text colour
 
 ### structure
+margin
+
+padding
