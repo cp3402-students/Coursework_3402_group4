@@ -19,11 +19,11 @@
 <H3>Hosted Environment</H3> 
 <dl>
   <dt>AWS<dt>
-  <dd>EC2</dd>
-  <dd>S3</dd>
-  <dd>Direct connection / networking interface</dd>
+  <dd>- EC2</dd>
+  <dd>- S3</dd>
+  <dd>- Direct connection / networking interface</dd>
   <dt>X10</dt>
-  <dd>staging/redundant</dd>
+  <dd>- staging/redundant</dd>
 </dl>
 <p>EC2: the hypervisor for instance machine to run the WP main system environtment.</p>
 <p>S3: the storage for store the main database of the WP system like admin system and some main content that have priority.</p>
