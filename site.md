@@ -87,24 +87,25 @@ and other general site configuration required to effectively maintain and update
 
 ## Posts
 
-<ol>
-Events
-Teachers
-</ol>
+* Events
+* Teachers
 
 ## Plugins
 
-<ol>
-Simple Custom CSS and JS
-Big File Uploads: This enables us to overwrite the default upload size limit for media and files,
-the default is 2M which is quite small for any media file today, by using this plugin we can upload all pictures to our WordPress website 
-Forminator: By using this plugin we enable user of our website submit form to the website owner,
-and the website owner allow to create forms or update any form on the site. Moveover the plugin also provide scam protection for the form,
-which will benefit the website owner. 
-Simply Schedule Appointments: This plugin enable website owner create any appointment booking for user of the website.
-WP Go Maps (formerly WP Google Maps): This plugin enable website owner display the physic location of their business on Google map
-The Events Calendar
-</ol>
+* **Simple Custom CSS and JS**
+* **Big File Uploads:** This enables us to overwrite the default upload size limit for media and files,
+  the default is 2M which is quite small for any media file today, by using this plugin we can upload all pictures to
+  our WordPress website
+* **Forminator:** By using this plugin we enable user of our website submit form to the website owner,
+  and the website owner allow to create forms or update any form on the site. Moreover, the plugin also provide scam
+  protection for the form,
+  which will benefit the website owner.
+* **Simply Schedule Appointments:** This plugin enable website owner create any appointment booking for user of the website.
+* **WP Go Maps (formerly WP Google Maps):** This plugin enable website owner display the physic location of their business
+  on Google map
+* **The Events Calendar**
+* **NextGen Gallery**
+* **Header and Footer Scripts**
 
 ## Site development
 
