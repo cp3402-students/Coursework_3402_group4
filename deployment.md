@@ -17,7 +17,6 @@
   <dd>- store the main data that have huge size</dd>
 </dl>
 <H3>Hosted Environment</H3> 
-<H4>AWS</H4>
 <dl>
   <dt>AWS<dt>
   <dd>EC2</dd>
