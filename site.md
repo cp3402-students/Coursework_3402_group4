@@ -100,12 +100,28 @@ and other general site configuration required to effectively maintain and update
   and the website owner allow to create forms or update any form on the site. Moreover, the plugin also provide scam
   protection for the form,
   which will benefit the website owner.
-* **Simply Schedule Appointments:** This plugin enable website owner create any appointment booking for user of the website.
-* **WP Go Maps (formerly WP Google Maps):** This plugin enable website owner display the physic location of their business
+* **Simply Schedule Appointments:** This plugin enable website owner create any appointment booking for user of the
+  website.
+* **WP Go Maps (formerly WP Google Maps):** This plugin enable website owner display the physic location of their
+  business
   on Google map
-* **The Events Calendar**
-* **NextGen Gallery**
-* **Header and Footer Scripts**
+* **The Events Calendar:** The Events page's hosts, venues, and locations are added using the Events Calendar. A few
+  events have already been added and may be modified for upcoming events. It's easy to establish an event since you can
+  choose from pre-made event details that will be included on the calendar right away. Events that are featured can be
+  marked, and all recent events are placed to the sidebar widget's "recent events" area. The ability to add ticket sales
+  to events and the option to establish recurring events are both significant premium features. You may find information
+  about the Events Calendar here: https://wordpress.org/plugins/the-events-calendar/
+* **NextGen Gallery:**  The awards gallery which redirect from about us page is built using NextGEN Gallery, a
+  supplementary media manager for the website. Add photographs to galleries inside the plugin area, then albums with
+  those galleries. You may make Galleries for particular classes, events, subjects, and other things before combining
+  them together into one album. The plugin also allows you to control additional elements like gallery styles and
+  thumbnail display. You can get more details on NextGEN and potential premium features
+  here: https://wordpress.org/plugins/nextgen-gallery/
+* **Header and Footer Scripts:** If you are running a WordPress site then sooner or later you need to insert some kind
+  of code to your website. It is most likely a web analytics code like Google Analytics or may be social media script or
+  some CSS stylesheet or may be Custom fonts. This plugin will do all the magic. Even if you want to insert those codes
+  in a custom post type. All you have to do is adding appropriate html code. Don’t forget to wrap your code with proper
+  tags.You can get more details on this plugin here: https://wordpress.org/plugins/header-and-footer-scripts/
 
 ## Site development
 
