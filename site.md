@@ -10,7 +10,7 @@ The creation of a new event post to events page, how to edit content on current 
 and other general site configuration required to effectively maintain and update this site.
 
 ## Pages
-
+      
 1. #### Index(Homepage)
    Index is the homepage of our website which is the page that all new visitors will get into their first sight by
    default.
@@ -39,12 +39,22 @@ and other general site configuration required to effectively maintain and update
    There is also a section below that lists out the academic partners which have been working with us.
 
 3. #### Registration
-   For the registration page, there is a signup form that implement via WordPress form block which requires various user info.
-All sections that ask for user input can be changed within WordPress editor.
+   For the registration page, there is a signup form that implement via WordPress form block which requires various user
+   info.
+   All sections that ask for user input can be changed within WordPress editor.
 
-    Below the signup form, a shoutout to site visitor to visit learning centre,
-and a CTA button that ask user to check out the location info by redirecting to location&transportation page.
+   Below the signup form, a shoutout to site visitor to visit learning centre,
+   and a CTA button that ask user to check out the location info by redirecting to location&transportation page.
+
 4. #### Schedule
+   For schedule page, all kinds of subjects which provided by the learning centre are listed here in a block which can
+   be changed within WordPress editor.
+
+   Right below the subjects listing is a CTA hyperlink to registration page which allow visitor to sign up to our
+   leaning centre and proceed to make appointment with us. A promotion ads is also displayed here to lure more visitors to join for registration. 
+
+   After that, it is a timetable which displays the scheduled timetable of the learning centre to show the current visitors.
+Another CTA button that promotes visitor to register to the learning centre is display here. This button is redirecting to registration page.
 
 5. #### Events
 
