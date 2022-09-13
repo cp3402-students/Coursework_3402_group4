@@ -68,7 +68,8 @@ and other general site configuration required to effectively maintain and update
    altered via WordPress editor.
 
    Below that is a section which prompts visitors to book a session from the learning centre by emphasising variety
-   of the learning centre's strength. Right below it, there is an appointment booking form which enable visitor to book
+   of the learning centre's strength. A CTA block is also there to lead user try out the booking system. Right below it,
+   there is an appointment booking form which enable visitor to book
    a session via the website, and this feature is provided by the appointment booking form plugin.
 
 6. #### Our Staffs
