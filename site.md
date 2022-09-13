@@ -10,7 +10,7 @@ The creation of a new event post to events page, how to edit content on current 
 and other general site configuration required to effectively maintain and update this site.
 
 ## Pages
-      
+
 1. #### Index(Homepage)
    Index is the homepage of our website which is the page that all new visitors will get into their first sight by
    default.
@@ -51,13 +51,24 @@ and other general site configuration required to effectively maintain and update
    be changed within WordPress editor.
 
    Right below the subjects listing is a CTA hyperlink to registration page which allow visitor to sign up to our
-   leaning centre and proceed to make appointment with us. A promotion ads is also displayed here to lure more visitors to join for registration. 
+   leaning centre and proceed to make appointment with us. A promotion ads is also displayed here to lure more visitors
+   to join for registration.
 
-   After that, it is a timetable which displays the scheduled timetable of the learning centre to show the current visitors.
-Another CTA button that promotes visitor to register to the learning centre is display here. This button is redirecting to registration page.
+   After that, it is a timetable which displays the scheduled timetable of the learning centre to show the current
+   visitors.
+   Another CTA button that promotes visitor to register to the learning centre is display here. This button is
+   redirecting to registration page.
 
 5. #### Events
+   For the event page, there is a side by side column block at the top, which shows the editor's choice award and the
+   open house event.
 
+   By clicking on the **title** of these two block or the **image** or the **readmore** hyperlink, visitor will be able
+   to jump to the editor's choice award page and the open house event page for more details. These hyperlink all can be
+   altered via WordPress editor.
+
+   Below that is a section which prompts visitors to book a session from the learning centre by emphasising variety
+   of the leanring centre's strength.
 6. #### Our Staffs
 
 7. #### Locations/Transportation
