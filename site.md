@@ -25,7 +25,13 @@ The image is pulled from the NexGen gallery plugin and can be changed from there
 This index page and some other pages have the slideshow **PLUGIN** that provides some custom features to the site.
 
 2. #### About us
+    The about us is page that has multiple media&text block.
+The first part is three parallel cards that emphasis on what makes us stand out.
+Following with details that further explain why do we have such claim.
+By default, **learn more** button will redirect the user to our staff page.
 
+    For the award section, there is a **view this** button that redirect user to the award document page,
+which contains a slideshow gallery that display a selection of images.
 3. #### Registration
 
 4. #### Schedule
