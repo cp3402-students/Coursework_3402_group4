@@ -68,8 +68,11 @@ and other general site configuration required to effectively maintain and update
    altered via WordPress editor.
 
    Below that is a section which prompts visitors to book a session from the learning centre by emphasising variety
-   of the leanring centre's strength.
+   of the learning centre's strength. Right below it, there is an appointment booking form which enable visitor to book
+   a session via the website.
+
 6. #### Our Staffs
+
 
 7. #### Locations/Transportation
 
