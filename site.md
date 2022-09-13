@@ -1,39 +1,62 @@
-<H1>Site Development Overview</H1>
+# Site Development Overview
+
+## Site Overview
+To provide a maintainable and updatable site for Baizonn Learning Centre,
+this document will try to specify and explain how to change the layout,
+how to change content on an existing page, how to add a new event post, how to delete and update the plugins and the content related to theme.
+The creation of a new event post to events page, how to edit content on current pages such as schedule and about us,
+and other general site configuration required to effectively  maintain and update this site.
+
+## Pages
+
+1. #### Index(Homepage)
+    Index is the homepage of our website which is the page that all new visitors will get into their first sight by default.
+The current home page contains a WordPress media&Text element that display welcome messages and an image,
+and the huge light-green button below our welcome message is linked to the registration page.
+If you have the needs to change where it points to, feel free to change it via the WordPress editor.
+
+    Below the welcome message, 
+there is an intro section that briefly introduce the learning centre from multiple perspective in a self Q&A style.
+Text and image can be replaced within WordPress editor, you can change it to suit your needs.
+For the teaching style section, there is a clickable hyperlink that can redirect user to the about us page, which can be changed as well.
+As those 3 CTA buttons, we have them redirect to about-us, registration and schedule page respectively.
+Below that, there is a gallery which presents with slideshow.
+The image is pulled from the NexGen gallery plugin and can be changed from there.
+This index page and some other pages have the slideshow **PLUGIN** that provides some custom features to the site.
+
+2. #### About us
+
+3. #### Registration
+
+4. #### Schedule
+
+5. #### Events
+
+6. #### Our Staffs
+
+7. #### Locations/Transportation
 
 
-<H2>Site Overview</H2>
-
-<p>To provide a maintainable and updatable site for Baizonn Learning Centre, this document will try specify and explain how to change the layout, how to change content on a existing page, how to add a new event post, how to delete and update the plugins and the content related to them. the creation of a new event post to events page,how to edit content on current pages such as schedule and about us, and other general site configuration required to effectively  maintain and update this site.<p>
-
-<H2>Pages</H2>
+## Posts
 <ol>
-<li>Index</li>
-<li>About us</li>
-<li>Registration</li> 
-<li>Schedule</li>
-<li>Events</li>
-<li>Our Staffs</li>
-<li>Locations/Transportation</li>
+Events
+Teachers
 </ol>
 
-<H2>Posts</H2>
+## Plugins
 <ol>
-<li>Events</li>
-<li>Teachers</li>
+Simple Custom CSS and JS
+Big File Uploads: This enables us to overwrite the default upload size limit for media and files,
+the default is 2M which is quite small for any media file today, by using this plugin we can upload all pictures to our WordPress website 
+Forminator: By using this plugin we enable user of our website submit form to the website owner,
+and the website owner allow to create forms or update any form on the site. Moveover the plugin also provide scam protection for the form,
+which will benefit the website owner. 
+Simply Schedule Appointments: This plugin enable website owner create any appointment booking for user of the website.
+WP Go Maps (formerly WP Google Maps): This plugin enable website owner display the physic location of their business on Google map
+The Events Calendar
 </ol>
 
-<H2>Plugins</H2>
-<ol>
-<li>Simple Custom CSS and JS</li>
-<li>Big File Uploads: This enable us to overwrite the default upload size limit for media and files, the default is 2M which is quite small for any media file today, by using this plugins we can upload all pictures to our wordpress website </li>
-<li>Forminator: By using this plugin we enable user of our website submit form to the website owner, and the website owner allow to create forms or update any form on the site. Moveover the this plugins also provide scam protection for the form, which will benefit the website owner. </li>
-<li>Simply Schedule Appointments: This plugin enable website owner create any appointment booking for user of the website.</li>
-<li>WP Go Maps (formerly WP Google Maps): This plugin enable website owner display the physic location of their business on Google map</li>
-<li>The Events Calendar</li>
-</ol>
+## Site development
+This site is built using WordPress.
 
-<H2>Site development</H2>
-
-
-<p>This site is built using Wordpress</p>
-<p>So the site manager should download Wordpress CMS from wordpress.org</p>
+So the site manager should download WordPress CMS from WordPress.org.
