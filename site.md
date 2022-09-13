@@ -105,7 +105,7 @@ and other general site configuration required to effectively maintain and update
 * **WP Go Maps (formerly WP Google Maps):** This plugin enable website owner display the physic location of their
   business
   on Google map
-* **The Events Calendar:** The Events page's hosts, venues, and locations are added using the Events Calendar. A few
+* **The Events Calendar:** The Events page's subject, times, and prices are added using the Events Calendar. A few
   events have already been added and may be modified for upcoming events. It's easy to establish an event since you can
   choose from pre-made event details that will be included on the calendar right away. Events that are featured can be
   marked, and all recent events are placed to the sidebar widget's "recent events" area. The ability to add ticket sales
