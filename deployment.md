@@ -7,7 +7,7 @@
 **Miro**:
 ## Environment Overview:
 <H2>infrastructure architect<H2>
-  <img src="cp3402-2022-1-site-group4-sp52/env/infrastructure.png" alt="Alt text" title="infrapic">
+![My Remote Image]([https://www.dropbox.com/s/.../my-remote-image.jpg?dl=0](https://drive.google.com/file/d/1QZ8y3B1o_Olf0Hg0Jx3EtiAovkF_Cpp4/view?usp=sharing))
 ### Local Environment 
 
 ### Hosted Environment 
