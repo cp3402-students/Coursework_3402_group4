@@ -40,6 +40,7 @@ important files and sub-folders :
       footer and other using specified class tag.
 
 ## Theme features
+When designing a theme feature, we found that there were many features we needed to take into account. However, due to the information given by the customer, we think that only the most important functions are included, so that the customer can understand at once
 
 ## Design Structure
 

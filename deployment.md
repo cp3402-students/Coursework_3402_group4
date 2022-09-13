@@ -41,3 +41,7 @@
 <p>test load: test the package of visual demand access the site.</p>
 <p>staging site: create the mirror of the site to prevent the workload of the main site down(can be tested on prototype function).</p>
 ## automation
+<dl>
+  <dd>- the appointment system</dd>
+  <dd>- the BGP navigate</dd>
+</dl>
