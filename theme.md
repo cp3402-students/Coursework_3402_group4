@@ -10,8 +10,7 @@ so please watch out for all the changes you apply to the theme.
 For information regards the theme, and how it was created, and the major points to look for when modifying it can be found below.
 
 ## Theme Origin
-Our theme is originated from the default theme twenty-twenty-two, the default theme provide some basic
-we then modify it using WordPress webpage elements and some html customized css.
+Our theme originated from the default theme twenty-twenty-two, the default theme contains some basic functionality, then we use wordpress theme editor combined with custom html component to create basic theme header, footer and layout. Since the theme editor has many restrictions compared to coding, we then modify the theme using css and html to overcome these restrictions so it achieves similar effects while content is still updatable in wordpress.
 
 ## Theme Folder Overview
 
