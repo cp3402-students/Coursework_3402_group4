@@ -324,6 +324,7 @@ class SSA_Availability_Model extends SSA_Db_Model {
 		'cache_key' => [ 'cache_key' ],
 		'cache_args_hash' => [ 'cache_args_hash' ],
 		'date_created' => [ 'date_created' ],
+		'cache_query' => [ 'cache_args_hash', 'start_date', 'end_date', 'cache_key' ],
 	);
 
 	public function filter_where_conditions( $where, $args ) {

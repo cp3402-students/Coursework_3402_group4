@@ -4,7 +4,7 @@ Donate link:       https://simplyscheduleappointments.com
 Tags:              appointments, booking, scheduling, booking calendar, appointment booking, schedule, calendar, coaching, booking system, booking plugin, zoom, google calendar
 Requires at least: 5.1
 Tested up to:      6.0.1
-Stable tag:        1.5.8.0
+Stable tag:        1.5.8.2
 Requires PHP:      7.0
 License:           GPLv2
 License URI:       http://www.gnu.org/licenses/gpl-2.0.html
@@ -207,6 +207,15 @@ The Plus, Professional, and Business Editions are paid versions of the Simply Sc
 10. Final Confirmation on the Booking Form.
 
 == Changelog ==
+###1.5.8.2 ###
+* Fixed: Problem with plugin updating on older server environments
+
+###1.5.8.1 ###
+* Improved: Rescheduling interface now shows in the user's language
+* Improved: Compatibility with plugins/themes using the Carbon library
+* Fixed: Compatibility with The Events Calendar
+* Fixed: Database deadlock error on high-traffic sites
+
 ###1.5.8.0 ###
 * Added: Appointment.web_meeting_url to notification token list
 * Added: Gravity Forms merge tags for ICS and Add to Google Calendar

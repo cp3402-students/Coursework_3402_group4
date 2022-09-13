@@ -1,0 +1,26 @@
+<!-- start Simple Custom CSS and JS -->
+<style type="text/css">
+/* Add your CSS code here.
+
+For example:
+.example {
+    color: red;
+}
+
+For brushing up on your CSS knowledge, check out http://www.w3schools.com/css/css_syntax.asp
+
+End of comment */ 
+
+body{
+	font-family: 'Open Sans';
+	font-size: 32px;
+	font-weight: normal;
+	color:#164570;
+}
+
+h3{
+	font-family: 'Open Sans';
+	font-size: 48px;
+	font-weight: normal;
+}</style>
+<!-- end Simple Custom CSS and JS -->

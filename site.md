@@ -25,11 +25,10 @@
 <H2>Plugins</H2>
 <ol>
 <li>Simple Custom CSS and JS</li>
-<li>Big File Uploads</li>
-<li>Forminator</li>
-<li>All-in-One WP Migration</li>
-<li>Simply Schedule Appointments</li>
-<li>WP Go Maps (formerly WP Google Maps)</li>
+<li>Big File Uploads: This enable us to overwrite the default upload size limit for media and files, the default is 2M which is quite small for any media file today, by using this plugins we can upload all pictures to our wordpress website </li>
+<li>Forminator: By using this plugin we enable user of our website submit form to the website owner, and the website owner allow to create forms or update any form on the site. Moveover the this plugins also provide scam protection for the form, which will benefit the website owner. </li>
+<li>Simply Schedule Appointments: This plugin enable website owner create any appointment booking for user of the website.</li>
+<li>WP Go Maps (formerly WP Google Maps): This plugin enable website owner display the physic location of their business on Google map</li>
 <li>The Events Calendar</li>
 </ol>
 

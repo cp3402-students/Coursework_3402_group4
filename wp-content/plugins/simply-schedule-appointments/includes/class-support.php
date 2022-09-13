@@ -57,7 +57,7 @@ class SSA_Support {
 
 		add_action( 'admin_init', array( $this, 'set_display_capacity_available' ) );
 		add_action( 'admin_init', array( $this, 'ssa_set_license' ) );
-		// add_action( 'init', 	  array( $this, 'set_ssa_debug_mode' ) );
+		add_action( 'admin_init', 	  array( $this, 'set_beta_booking_app_setting' ) );
 	}
 
 	public function ssa_set_license() {
@@ -594,10 +594,20 @@ class SSA_Support {
 	 *
 	 * @return void
 	 */
-	// public function set_ssa_debug_mode() {
-	// 	$developer_settings = $this->plugin->developer_settings->get();
-	// 	if( $developer_settings && isset( $developer_settings['ssa_debug_mode'] ) && $developer_settings['ssa_debug_mode'] ) {
-	// 		define( 'SSA_DEBUG_LOG', true );
-	// 	}
-	// }
+	public function set_beta_booking_app_setting() {
+		if (!isset($_GET['ssa-beta-booking-app'])) {
+			return;
+		}
+
+		if (!current_user_can('ssa_manage_site_settings')) {
+			return;
+		}
+
+		$developer_settings = $this->plugin->developer_settings->get();
+		$developer_settings['beta_booking_app'] = (int)$_GET['ssa-beta-booking-app'];
+		$this->plugin->developer_settings->update( $developer_settings );
+		
+		wp_safe_redirect($this->plugin->wp_admin->url(), $status = 302);
+		exit();
+	}
 }

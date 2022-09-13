@@ -361,6 +361,11 @@
         'label' => __( 'Google Calendar Events Customization (Beta)', 'simply-schedule-appointments' ),
         'help' => __( 'Customize the content of events added to Google Calendar', 'simply-schedule-appointments' ),
       ),
+      'beta_booking_app' => 
+      array (
+        'label' => __( 'Booking App V2 (Beta)', 'simply-schedule-appointments' ),
+        'help' => __( 'Set the Booking App V2 as the default booking app.', 'simply-schedule-appointments' ),
+      ),
       'separate_appointment_type_availability' => 
       array (
         'label' => __( 'Give appointment types independent availability', 'simply-schedule-appointments' ),

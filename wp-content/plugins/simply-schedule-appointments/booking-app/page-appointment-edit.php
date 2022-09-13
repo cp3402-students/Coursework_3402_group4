@@ -16,6 +16,11 @@
     if ( ! empty( $_GET['paypal_success'] ) || ! empty( $_GET['paypal_cancel'] ) ) {
       $shortcode .= ' view="confirm_payment"';
     }
+    $appointment = new SSA_Appointment_Object( $ssa_current_appointment_id );
+    $customer_locale = $appointment->customer_locale;
+    if ( ! empty( $customer_locale ) ) {
+      $shortcode .= ' ssa_locale="'. $customer_locale . '"';
+    }
     $shortcode .= ']';
     echo do_shortcode( $shortcode );
     ?>

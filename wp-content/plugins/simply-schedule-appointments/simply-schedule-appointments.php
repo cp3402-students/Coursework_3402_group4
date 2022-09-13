@@ -3,7 +3,7 @@
  * Plugin Name: Simply Schedule Appointments
  * Plugin URI:  https://simplyscheduleappointments.com
  * Description: Easy appointment scheduling
- * Version:     1.5.8.0
+ * Version:     1.5.8.2
  * Requires PHP: 7.0
  * Author:      N Squared
  * Author URI:  http://nsqua.red
@@ -15,7 +15,7 @@
  * @link    https://simplyscheduleappointments.com
  *
  * @package Simply_Schedule_Appointments
- * @version 1.5.8.0
+ * @version 1.5.8.2
  *
  * Built using generator-plugin-wp (https://github.com/WebDevStudios/generator-plugin-wp)
  */
@@ -83,7 +83,7 @@ final class Simply_Schedule_Appointments {
 	 * @var    string
 	 * @since  0.0.0
 	 */
-	const VERSION = '1.5.8.0';
+	const VERSION = '1.5.8.2';
 
 	/**
 	 * URL of plugin directory.
@@ -480,10 +480,6 @@ final class Simply_Schedule_Appointments {
 
 		if ( !class_exists( '\League\Period\Period' ) ) {
 			$this->activation_errors[] = 'Core library <code>Period</code> missing, please <a href="mailto:support@simplyscheduleappointments.com">contact support</a>';
-		}
-
-		if ( !class_exists( '\Cake\Chronos\Chronos' ) ) {
-			$this->activation_errors[] = 'Core library <code>Chronos</code> missing, please <a href="mailto:support@simplyscheduleappointments.com">contact support</a>';
 		}
 
 		if ( !empty( $this->activation_errors ) ) {

@@ -325,7 +325,8 @@ class SSA_Shortcodes {
 			'sid'             => sha1( gmdate( 'Ymd' ) . get_current_user_id() ), // busts full-page caching so each URL is user-specific (daily) and doesn't leak sensitive data
 			'availability_start_date' => '',
 			'availability_end_date' => '',
-			
+			'version'         => '',
+
 			'accent_color'    => '',
 			'background'      => '',
 			'padding'         => '',
@@ -465,7 +466,7 @@ class SSA_Shortcodes {
 
 			$link = add_query_arg( $atts, $api_vars['api']['root'] . '/embed-inner' );
 		}
-		
+
 		if ( !empty( $atts['edit'] ) ) {
 			$appointment_id = sanitize_text_field( $atts['edit'] );
 			$appointment_id_token = $this->plugin->appointment_model->get_id_token( array( 'id' => sanitize_text_field( $atts['edit'] ) ) );
@@ -489,13 +490,12 @@ class SSA_Shortcodes {
 		$escaped_passed_args = array();	
 		foreach( $this->get_passed_args() as $passed_key => $passed_value ) {
 			if ( $passed_key==='Email' ) {
-				$passed_value = str_replace( ' ', '+', trim( $passed_value ) ); // since + is a URL equivalent of %20, an email like 'example+123@gmail.com' needs to be re-encoded to prevent it from becoming 'example 123@gmail.com'
+				$passed_value = str_replace( ' ', '%2B', trim( $passed_value ) ); // since + is a URL equivalent of %20, an email like 'example+123@gmail.com' needs to be re-encoded to prevent it from becoming 'example 123@gmail.com'
 			}
 			$escaped_passed_args[htmlspecialchars($passed_key)] = htmlspecialchars($passed_value);
 		}
 
 		$link = add_query_arg( $escaped_passed_args, $link );
-		$link = str_replace('+', '%2B', $link);
 		$lazy_load_mode = apply_filters( 'ssa/performance/lazy_load', false );
 		if ( false === $lazy_load_mode ) {
 			$iframe_src = '<iframe src="' . $link . '" height="400px" width="100%" name="ssa_booking" loading="eager" frameborder="0" data-skip-lazy="1" class="ssa_booking_iframe skip-lazy" title="' . esc_attr__( 'Book a time', 'simply-schedule-appointments' ) . '"></iframe>';
@@ -656,21 +656,39 @@ class SSA_Shortcodes {
 	public function get_embed_inner_output( WP_REST_Request $request ) {
 		$params = $request->get_params();
 
-		$args = array();
-
 		header( 'Content-Type: text/html' );
 
-		// If "SSA_BOOKING_APP_NEW" constant is set, embed the new booking app instead of the old one.
+		$developer_settings      = ssa()->developer_settings->get();
+		$include_new_booking_app = false;
+
+		// if beta_booking_app feature is enabled, we need to include the new booking app.
+		if ( ! empty( $developer_settings['beta_booking_app'] ) ) {
+			$include_new_booking_app = true;
+		}
+
+		// If the setting is not enabled, BUT "SSA_BOOKING_APP_NEW" constant is set, we need to include the new booking app.
 		if ( defined( 'SSA_BOOKING_APP_NEW' ) && SSA_BOOKING_APP_NEW ) {
+			$include_new_booking_app = true;
+		}
+
+		// If 'version' parameter is set to 1, enforce the old booking app.
+		if ( isset( $params['version'] ) && '1' === $params['version'] ) {
+			$include_new_booking_app = false;
+		}
+
+		// If 'version' parameter is set to 2, enforce the new booking app.
+		if ( isset( $params['version'] ) && '2' === $params['version'] ) {
+			$include_new_booking_app = true;
+		}
+
+		// Include new booking app instead of the old one IF the beta_booking_app feature is enabled.
+		if ( $include_new_booking_app ) {
 			include $this->plugin->dir( 'booking-app-new/iframe-inner.php' );
 		} else {
 			include $this->plugin->dir( 'booking-app/iframe-inner.php' );
 		}
-		// $output = ssa()->shortcodes->ssa_booking( $params, true );
-		// echo $output;
-		exit;
 
-		// return new WP_REST_Response( $output, 200 );
+		exit;
 	}
 
 	/**

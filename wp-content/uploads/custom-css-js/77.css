@@ -47,29 +47,47 @@ header {
 }
 
 .logo_text1 {
-	letter-spacing: 1.4em;
+	letter-spacing: 0.7em;
 }
 
 .logo_text1 .span0 {
-	font-size: 85px;
+	font-size: 60px;
 	color:#1174B0;
 }
 
 
 .logo_text1 .span1 {
-	font-size: 60px;
+	font-size: 50px;
 	color:#1174B0;
 }
 
 
 .logo_text1 .span2 {
-	font-size: 60px;
+	font-size: 50px;
 	color:#168C4B;
 }
 
 .logo_text2 {
-	font-size: 24px;
+	font-size: 20px;
 	font-weight: bold;
 	letter-spacing: 0.2em;
+}
+
+@media screen and (max-width: 1440px) {
+	.wp-container-2 {
+   		gap: 50px;
+
+	}
+	.wp-container-5 {
+   		gap: 50px;
+
+	}
+	.wp-container-6 {
+   		gap: 50px;
+
+	}
+	.logo_text1 {
+	letter-spacing: 1em;
+}
 }</style>
 <!-- end Simple Custom CSS and JS -->

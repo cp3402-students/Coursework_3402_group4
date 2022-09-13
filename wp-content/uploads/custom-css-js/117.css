@@ -18,5 +18,22 @@ End of comment */
 }
 .footer_subscription_header .span4{
 	color:#05CC5E;
+}
+
+footer a{
+	color:white;
+	text-decoration:underline;
+}
+
+footer a:hover{
+	color:white;
+	text-decoration:underline;
+	
+}
+
+footer a:visited{
+	color:white;
+	text-decoration:underline;
+	
 }</style>
 <!-- end Simple Custom CSS and JS -->
