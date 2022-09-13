@@ -11,29 +11,16 @@ For brushing up on your CSS knowledge, check out http://www.w3schools.com/css/cs
 
 End of comment */ 
 
-.footer_subscription_header{
+body{
+	font-family: 'Open Sans';
 	font-size: 32px;
-	font-weight: bold;
-	text-align:center;
-}
-.footer_subscription_header .span4{
-	color:#05CC5E;
+	font-weight: normal;
+	color:#164570;
 }
 
-footer a{
-	color:white;
-	text-decoration:underline;
-}
-
-footer a:hover{
-	color:white;
-	text-decoration:underline;
-	
-}
-
-footer a:visited{
-	color:white;
-	text-decoration:underline;
-	
+h3{
+	font-family: 'Open Sans';
+	font-size: 48px;
+	font-weight: normal;
 }</style>
 <!-- end Simple Custom CSS and JS -->
