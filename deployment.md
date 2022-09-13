@@ -7,7 +7,7 @@
 **Miro**:
 ## Environment Overview:
 <H2>infrastructure architect</H2>
-![My Remote Image](https://ibb.co/sCfRjJ1)
+<img src="https://ibb.co/sCfRjJ1" alt="architect infra">
 <H2>Local Environment</H2>
 
 ### Hosted Environment 
