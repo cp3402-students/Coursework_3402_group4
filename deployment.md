@@ -7,7 +7,7 @@
 **Miro**:
 ## Environment Overview:
 <H2>infrastructure architect</H2>
-<img src="https://ibb.co/sCfRjJ1" alt="architect infra">
+<img src="https://drive.google.com/file/d/1QZ8y3B1o_Olf0Hg0Jx3EtiAovkF_Cpp4/view?usp=sharing" alt="architect infra">
 <H2>Local Environment</H2>
 
 ### Hosted Environment 
