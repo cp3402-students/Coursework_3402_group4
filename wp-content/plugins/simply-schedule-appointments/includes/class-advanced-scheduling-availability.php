@@ -6,7 +6,6 @@
  * @package Simply_Schedule_Appointments
  */
 use League\Period\Period;
-use Cake\Chronos\Date;
 
 /**
  * Simply Schedule Appointments Advanced Scheduling Availability.

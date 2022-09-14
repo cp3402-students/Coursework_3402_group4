@@ -291,19 +291,34 @@ class SSA_Availability_Cache {
 			)
 		);
 		if ( empty( $below_this_cache_key ) ) {
-			$wpdb->get_results( $sql );
+			$this->wpdb_query_while_preventing_deadlock($sql);
 			return;
 		}
 
 		$sql .= $wpdb->prepare( ' AND cache_key < %d', $below_this_cache_key );
-		$wpdb->get_results( $sql );
+		$this->wpdb_query_while_preventing_deadlock($sql);
 
 		$sql = 'DELETE FROM '.$this->plugin->availability_model->get_table_name().' WHERE id=%d';
 		$sql = $wpdb->prepare(
 			$sql,
 			$below_this_cache_key
 		);
-		$wpdb->get_results( $sql );
+		$this->wpdb_query_while_preventing_deadlock( $sql );
+	}
+
+	private function wpdb_query_while_preventing_deadlock( $sql ) {
+		global $wpdb;
+		// This query can potentially be deadlocked if there is
+		// high concurrency, in which case DB will abort the query which has done less work to resolve deadlock.
+		// We will try up to 3 times before giving up.
+		for ($count = 0; $count < 3; $count++) {
+			$result = $wpdb->query( $sql ); // WPCS: unprepared SQL ok.
+			if ( false !== $result ) {
+				break;
+			}
+		}
+
+		return $result;
 	}
 
 	public static function object_cache_get( $key, $group = '', $force = false, &$found = null ) {

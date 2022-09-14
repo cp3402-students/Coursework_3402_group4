@@ -1,22 +1,22 @@
 <?php return array(
     'root' => array(
-        'pretty_version' => '5.8.0',
-        'version' => '5.8.0.0',
+        'pretty_version' => '5.8.2',
+        'version' => '5.8.2.0',
         'type' => 'library',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
-        'reference' => '5f8ecb6049a7e6a8f380617f86a7bf851b5106f9',
+        'reference' => 'ebaaf8a45dc537dbfcaf79b6edc91b72018ce54b',
         'name' => '__root__',
         'dev' => true,
     ),
     'versions' => array(
         '__root__' => array(
-            'pretty_version' => '5.8.0',
-            'version' => '5.8.0.0',
+            'pretty_version' => '5.8.2',
+            'version' => '5.8.2.0',
             'type' => 'library',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
-            'reference' => '5f8ecb6049a7e6a8f380617f86a7bf851b5106f9',
+            'reference' => 'ebaaf8a45dc537dbfcaf79b6edc91b72018ce54b',
             'dev_requirement' => false,
         ),
         'cakephp/chronos' => array(
@@ -38,12 +38,12 @@
             'dev_requirement' => true,
         ),
         'guzzlehttp/promises' => array(
-            'pretty_version' => '1.5.1',
-            'version' => '1.5.1.0',
+            'pretty_version' => '1.5.2',
+            'version' => '1.5.2.0',
             'type' => 'library',
             'install_path' => __DIR__ . '/../guzzlehttp/promises',
             'aliases' => array(),
-            'reference' => 'fe752aedc9fd8fcca3fe7ad05d419d32998a06da',
+            'reference' => 'b94b2807d85443f9719887892882d0329d1e2598',
             'dev_requirement' => true,
         ),
         'guzzlehttp/psr7' => array(
