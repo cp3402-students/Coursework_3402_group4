@@ -36,7 +36,7 @@ important files and sub-folders :
 
 ## Theme Design
 
-Our Design in WordPress inherit our design in figma, using figma save us lots of times, so we implement our design without doubt and concerns. The overall style of the follow a simplism approach, therefore we use a bold header design and footer design to make vistor interest in our website, thus may purchase tutoring services.
+Our Design in WordPress inherit our design in [figma] (https://www.figma.com/file/1ubJjWaeQUFzoygyQkc2WO/CP3402), using figma save us lots of times, so we implement our design without doubt and concerns. The overall style of the follow a simplism approach, therefore we use a bold header design and footer design to make vistor interest in our website, thus may purchase tutoring services.
 
 
 ### Typology
