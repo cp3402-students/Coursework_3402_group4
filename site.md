@@ -88,11 +88,13 @@ and other general site configuration required to effectively maintain and update
 ## Posts
 
 * Events
+   the event post is provide about contents of the event that upcoming there will opening campus and the the chrismas program event in the post content that are post in the site.
 * Teachers
-
+   the teacher post is explaination of the staff in the campus and there are the part that show on the teach style from in the site page
 ## Plugins
 
 * **Simple Custom CSS and JS**
+   the plugin the avaialble to edit and deploy on the javascript and CSS seperatly
 * **Big File Uploads:** This enables us to overwrite the default upload size limit for media and files,
   the default is 2M which is quite small for any media file today, by using this plugin we can upload all pictures to
   our WordPress website.
