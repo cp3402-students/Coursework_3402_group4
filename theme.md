@@ -24,13 +24,13 @@ important files and sub-folders :
 
 - BaizonnLearningCentretheme
     - templates (sub-folder): this folder contain html templates that used to generate the theme of all pages.
-    - page.html: This is the theme template we used although it doesn't contain the actual footer and navigation bar
-      which is load from the theme parts, it defines the general structure and layout of the theme.
+        - page.html: This is the theme template we used although it doesn't contain the actual footer and navigation bar
+            which is load from the theme parts, it defines the general structure and layout of the theme.
     - parts (sub-folder): this the folder contains all template parts such as header (navigation bar) and footer
-    - header.html: This is the footer template we define the navigation bar, html class tag is specific, so we can define
-      css style later.
-    - footer.html: This is the header template we define the footer, html class tag is specific, so we can define css
-      style later.
+        - header.html: This is the footer template we define the navigation bar, html class tag is specific, so we can define
+             css style later.
+        - footer.html: This is the header template we define the footer, html class tag is specific, so we can define css
+             style later.
     - style.css: This is Cascading Style Sheets define styles for all theme file, we link and define styles for header,
       footer and other using specified class tag.
 
