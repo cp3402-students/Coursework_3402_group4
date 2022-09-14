@@ -87,10 +87,10 @@ and other general site configuration required to effectively maintain and update
 
 ## Posts
 
-* Events
-   the event post is provide about contents of the event that upcoming there will opening campus and the the chrismas program event in the post content that are post in the site.
-* Teachers
-   the teacher post is explaination of the staff in the campus and there are the part that show on the teach style from in the site page
+* Event
+   the event post is provide about contents of the event that upcoming there will opening campus event in the post content that are post in the site.
+* Award
+   The Award post is the part of showing the content of the award that learnign center got. the page will provid content of the text paragraph to explain on the work of the award, on the other hand there are the part that show on the picture of the award and overwview workflow.
 ## Plugins
 
 * **Simple Custom CSS and JS**
