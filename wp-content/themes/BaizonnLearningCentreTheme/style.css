@@ -1,0 +1,475 @@
+/*
+Theme Name: BaizonnLearningCentre
+Theme URI: https://github.com/cp3402-students/cp3402-2022-1-site-group4-sp52
+Author: The Cp3402 Group 4
+Author URI: https://github.com/cp3402-students/cp3402-2022-1-site-group4-sp52
+Description: A theme use for Baizonn Learning Centre.
+Version: 1.0.0
+License: GNU General Public License v3.0 (or later)
+License URI: https://www.gnu.org/licenses/gpl-3.0.html
+Text Domain: BaizonnLearningCentre
+Tags: translation-ready
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share
+what you've learned with others.
+*/
+
+.ngg-simplelightbox > img {
+    max-height: 880px;
+}
+
+.ngg-simplelightbox > img {
+    max-height: 880px;
+}
+
+.ngg-simplelightbox > img {
+    max-height: 880px;
+}
+
+.ngg-simplelightbox > img {
+    max-height: 880px;
+}
+
+.ngg-simplelightbox > img {
+    max-height: 880px;
+}
+
+body {
+	-moz-osx-font-smoothing: grayscale;
+	-webkit-font-smoothing: antialiased;
+}
+
+/*
+ * Text and navigation link styles.
+ * Necessary until the following issue is resolved in Gutenberg:
+ * https://github.com/WordPress/gutenberg/issues/27075
+ */
+
+a {
+	text-decoration-thickness: 1px;
+	text-underline-offset: 0.25ch;
+}
+
+a:hover,
+a:focus {
+	text-decoration-style: dashed;
+}
+
+a:active {
+	text-decoration: none;
+}
+
+.wp-block-navigation .wp-block-navigation-item a:hover,
+.wp-block-navigation .wp-block-navigation-item a:focus {
+	text-decoration: underline;
+	text-decoration-style: solid;
+}
+
+/*
+ * Search and File Block button styles.
+ * Necessary until the following issues are resolved in Gutenberg:
+ * https://github.com/WordPress/gutenberg/issues/36444
+ * https://github.com/WordPress/gutenberg/issues/27760
+ */
+
+.wp-block-search__button,
+.wp-block-file .wp-block-file__button {
+	background-color: var(--wp--preset--color--primary);
+	border-radius: 0;
+	border: none;
+	color: var(--wp--preset--color--background);
+	font-size: var(--wp--preset--font-size--medium);
+	padding: calc(.667em + 2px) calc(1.333em + 2px);
+}
+
+/*
+ * Button hover styles.
+ * Necessary until the following issue is resolved in Gutenberg:
+ * https://github.com/WordPress/gutenberg/issues/27075
+ */
+
+.wp-block-search__button:hover,
+.wp-block-file .wp-block-file__button:hover,
+.wp-block-button__link:hover {
+	opacity: 0.90;
+}
+
+/*
+ * Alignment styles.
+ * These rules are temporary, and should not be relied on or
+ * modified too heavily by themes or plugins that build on
+ * Twenty Twenty-Two. These are meant to be a precursor to
+ * a global solution provided by the Block Editor.
+ *
+ * Relevant issues:
+ * https://github.com/WordPress/gutenberg/issues/35607
+ * https://github.com/WordPress/gutenberg/issues/35884
+ */
+
+.wp-site-blocks,
+body > .is-root-container,
+.edit-post-visual-editor__post-title-wrapper,
+.wp-block-group.alignfull,
+.wp-block-group.has-background,
+.wp-block-cover.alignfull,
+.is-root-container .wp-block[data-align="full"] > .wp-block-group,
+.is-root-container .wp-block[data-align="full"] > .wp-block-cover {
+	padding-left: var(--wp--custom--spacing--outer);
+	padding-right: var(--wp--custom--spacing--outer);
+}
+
+.wp-site-blocks .alignfull,
+.wp-site-blocks > .wp-block-group.has-background,
+.wp-site-blocks > .wp-block-cover,
+.wp-site-blocks > .wp-block-template-part > .wp-block-group.has-background,
+.wp-site-blocks > .wp-block-template-part > .wp-block-cover,
+body > .is-root-container > .wp-block-cover,
+body > .is-root-container > .wp-block-template-part > .wp-block-group.has-background,
+body > .is-root-container > .wp-block-template-part > .wp-block-cover,
+.is-root-container .wp-block[data-align="full"] {
+	margin-left: calc(-1 * var(--wp--custom--spacing--outer)) !important;
+	margin-right: calc(-1 * var(--wp--custom--spacing--outer)) !important;
+	width: unset;
+}
+
+/* Blocks inside columns don't have negative margins. */
+.wp-site-blocks .wp-block-columns .wp-block-column .alignfull,
+.is-root-container .wp-block-columns .wp-block-column .wp-block[data-align="full"],
+/* We also want to avoid stacking negative margins. */
+.wp-site-blocks .alignfull:not(.wp-block-group) .alignfull,
+.is-root-container .wp-block[data-align="full"] > *:not(.wp-block-group) .wp-block[data-align="full"] {
+	margin-left: auto !important;
+	margin-right: auto !important;
+	width: inherit;
+}
+
+/*
+ * Responsive menu container padding.
+ * This ensures the responsive container inherits the same
+ * spacing defined above. This behavior may be built into
+ * the Block Editor in the future.
+ */
+
+.wp-block-navigation__responsive-container.is-menu-open {
+	padding-top: var(--wp--custom--spacing--outer);
+	padding-bottom: var(--wp--custom--spacing--large);
+	padding-right: var(--wp--custom--spacing--outer);
+	padding-left: var(--wp--custom--spacing--outer);
+}
+
+
+
+.wp-container-3.is-vertical.is-content-justification-center.is-nowrap.wp-block-group {
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px
+}
+
+
+
+.has-text-color {
+    color: #20c589
+}
+
+
+
+.wp-block-button__link.has-background-color.has-vivid-green-cyan-background-color.has-text-color.has-background {
+    border-radius: 14px
+}
+
+.wp-block-cover.alignwide.is-light.wp-embed-aspect-16-9.wp-has-aspect-ratio {
+    min-height: 1400px
+}
+
+
+
+.wp-block-cover__image-background.wp-image-746 {
+    object-position: 50% 27%
+}
+
+
+.wp-image-694 {
+    width: 150px;
+}
+
+.wp-container-23.wp-block-group {
+    font-size: 1.3rem
+}
+
+.wp-container-50.wp-block-group.alignwide.has-background {
+    background-color: #f5f5f500;
+    font-size: 22px
+}
+
+.wp-container-48.is-horizontal.is-content-justification-center.is-nowrap.wp-block-group.alignfull.has-background-color.has-text-color.has-background {
+    background-color: #ffffff00
+}
+
+
+.wp-container-49.is-horizontal.is-content-justification-space-between.wp-block-group.alignfull.has-background-color.has-text-color.has-background.has-medium-font-size {
+    background-color: #ffffff00;
+    padding-top: 4rem;
+    padding-bottom: 4rem
+}
+
+.has-text-align-right {
+}
+
+/*
+ * Text and navigation link styles.
+ * Necessary until the following issue is resolved in Gutenberg:
+ * https://github.com/WordPress/gutenberg/issues/27075
+ */
+
+a {
+	text-decoration-thickness: 1px;
+	text-underline-offset: 0.25ch;
+}
+
+a:hover,
+a:focus {
+	text-decoration-style: dashed;
+}
+
+a:active {
+	text-decoration: none;
+}
+
+.wp-block-navigation .wp-block-navigation-item a:hover,
+.wp-block-navigation .wp-block-navigation-item a:focus {
+	text-decoration: underline;
+	text-decoration-style: solid;
+}
+
+/*
+ * Search and File Block button styles.
+ * Necessary until the following issues are resolved in Gutenberg:
+ * https://github.com/WordPress/gutenberg/issues/36444
+ * https://github.com/WordPress/gutenberg/issues/27760
+ */
+
+.wp-block-search__button,
+.wp-block-file .wp-block-file__button {
+	background-color: var(--wp--preset--color--primary);
+	border-radius: 0;
+	border: none;
+	color: var(--wp--preset--color--background);
+	font-size: var(--wp--preset--font-size--medium);
+	padding: calc(.667em + 2px) calc(1.333em + 2px);
+}
+
+/*
+ * Button hover styles.
+ * Necessary until the following issue is resolved in Gutenberg:
+ * https://github.com/WordPress/gutenberg/issues/27075
+ */
+
+.wp-block-search__button:hover,
+.wp-block-file .wp-block-file__button:hover,
+.wp-block-button__link:hover {
+	opacity: 0.90;
+}
+
+/*
+ * Alignment styles.
+ * These rules are temporary, and should not be relied on or
+ * modified too heavily by themes or plugins that build on
+ * Twenty Twenty-Two. These are meant to be a precursor to
+ * a global solution provided by the Block Editor.
+ *
+ * Relevant issues:
+ * https://github.com/WordPress/gutenberg/issues/35607
+ * https://github.com/WordPress/gutenberg/issues/35884
+ */
+
+.wp-site-blocks,
+body > .is-root-container,
+.edit-post-visual-editor__post-title-wrapper,
+.wp-block-group.alignfull,
+.wp-block-group.has-background,
+.wp-block-cover.alignfull,
+.is-root-container .wp-block[data-align="full"] > .wp-block-group,
+.is-root-container .wp-block[data-align="full"] > .wp-block-cover {
+	padding-left: var(--wp--custom--spacing--outer);
+	padding-right: var(--wp--custom--spacing--outer);
+}
+
+.wp-site-blocks .alignfull,
+.wp-site-blocks > .wp-block-group.has-background,
+.wp-site-blocks > .wp-block-cover,
+.wp-site-blocks > .wp-block-template-part > .wp-block-group.has-background,
+.wp-site-blocks > .wp-block-template-part > .wp-block-cover,
+body > .is-root-container > .wp-block-cover,
+body > .is-root-container > .wp-block-template-part > .wp-block-group.has-background,
+body > .is-root-container > .wp-block-template-part > .wp-block-cover,
+.is-root-container .wp-block[data-align="full"] {
+	margin-left: calc(-1 * var(--wp--custom--spacing--outer)) !important;
+	margin-right: calc(-1 * var(--wp--custom--spacing--outer)) !important;
+	width: unset;
+}
+
+/* Blocks inside columns don't have negative margins. */
+.wp-site-blocks .wp-block-columns .wp-block-column .alignfull,
+.is-root-container .wp-block-columns .wp-block-column .wp-block[data-align="full"],
+/* We also want to avoid stacking negative margins. */
+.wp-site-blocks .alignfull:not(.wp-block-group) .alignfull,
+.is-root-container .wp-block[data-align="full"] > *:not(.wp-block-group) .wp-block[data-align="full"] {
+	margin-left: auto !important;
+	margin-right: auto !important;
+	width: inherit;
+}
+
+/*
+ * Responsive menu container padding.
+ * This ensures the responsive container inherits the same
+ * spacing defined above. This behavior may be built into
+ * the Block Editor in the future.
+ */
+
+.wp-block-navigation__responsive-container.is-menu-open {
+	padding-top: var(--wp--custom--spacing--outer);
+	padding-bottom: var(--wp--custom--spacing--large);
+	padding-right: var(--wp--custom--spacing--outer);
+	padding-left: var(--wp--custom--spacing--outer);
+}
+
+.wp-block-navigation .wp-block-navigation-item__label {
+	font-family: 'Open Sans';
+	font-size: 32px;
+	font-weight: bold;
+	
+}
+
+/*-------------------------------------------------------------------General------------------------------------------------------------------------*/
+
+body{
+	font-family: 'Open Sans';
+	font-size: 32px;
+	font-weight: normal;
+	color:#164570;
+	padding-top: 0%;
+    	padding-right: 5%;
+  	padding-bottom: 0%;
+  	padding-left: 5%;
+}
+
+h3{
+	font-family: 'Open Sans';
+	font-size: 48px;
+	font-weight: normal;
+}
+
+
+
+/*-------------------------------------------------------------------Footer------------------------------------------------------------------------*/
+
+
+.footer_subscription_header{
+	font-size: 32px;
+	font-weight: bold;
+	text-align:center;
+}
+.footer_subscription_header .span4{
+	color:#05CC5E;
+}
+
+footer a{
+	color:white;
+	text-decoration:underline;
+}
+
+footer a:hover{
+	color:white;
+	text-decoration:underline;
+	
+}
+
+footer a:visited{
+	color:white;
+	text-decoration:underline;
+	
+}
+
+/*-------------------------------------------------------------------Header------------------------------------------------------------------------*/
+
+.alignwide {
+    min-width: 100%;
+	margin-left: 0px;
+	margin-right: 0px;
+}
+
+
+header {
+	width:100%;
+	border-bottom: 5px solid #F2F1F1;
+}
+
+.alignfull{
+	width:100%;
+}
+
+.wp-block-navigation .wp-block-navigation-item__label {
+	font-family: 'Open Sans';
+	font-size: 24px;
+	font-weight: bold;
+}
+
+.wp-block-navigation .wp-block-navigation-item a:hover,
+.wp-block-navigation .wp-block-navigation-item a:focus {
+	text-decoration: underline;
+	text-decoration-style: solid;
+	color:#168C4B;
+}
+
+.logo_text1 .logo_text2 {
+	font-family: 'Roboto Mono';
+	 text-align: center;
+	
+}
+
+.logo_text1 {
+	letter-spacing: 0.7em;
+}
+
+.logo_text1 .span0 {
+	font-size: 60px;
+	color:#1174B0;
+}
+
+
+.logo_text1 .span1 {
+	font-size: 50px;
+	color:#1174B0;
+}
+
+
+.logo_text1 .span2 {
+	font-size: 50px;
+	color:#168C4B;
+}
+
+.logo_text2 {
+	font-size: 20px;
+	font-weight: bold;
+	letter-spacing: 0.2em;
+}
+
+@media screen and (max-width: 1440px) {
+	.wp-container-2 {
+   		gap: 50px;
+
+	}
+	.wp-container-5 {
+   		gap: 50px;
+
+	}
+	.wp-container-6 {
+   		gap: 50px;
+
+	}
+	.logo_text1 {
+	letter-spacing: 1em;
+}
+}

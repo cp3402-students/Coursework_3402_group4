@@ -1,0 +1,18 @@
+{
+    "theme": {
+        "slug": "BaizonnLearningCentreTheme",
+        "name": "BaizonnLearningCentreTheme",
+        "author": "Baizonn Learning Centre",
+    },
+    "browserSync": {
+        "live": true,
+        "proxyURL": "BaizonnLearningCentre.test:8888",
+        "bypassPort": "8181",
+        "https": false
+    },
+    "debug": {
+        "styles": false,
+        "scripts": true,
+        "phpcs": true
+    }
+}
