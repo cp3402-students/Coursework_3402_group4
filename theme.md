@@ -43,7 +43,7 @@ Our Design in WordPress inherit our design in figma, using figma save us lots of
 
 font type:
 We select Open Sans for most of the text since it is a simple and elegant font that will make the website more
-interesting and attract more user to eventually subscribe the courses on the Website. Roboto Mono is a
+interesting and attract more user to eventually subscribe the courses on the Website. Roboto Mono is a perfect capitalized font use for logo.
 
 - header: use Roboto Mono in logo, use Open Sans for others
 - body: use Open Sans
@@ -51,7 +51,7 @@ interesting and attract more user to eventually subscribe the courses on the Web
 
 font weight: Normal for normal text, bold for header
 
-font size: 32px for normal text, size for title vary depend on the use case
+font size: seperated for normal text and different titles, 32px for most of normal text, and size for titles vary depend on the use case
 
 letter spacing: 0% for normal text in body and footer. In header, use 40% and 20% for big title and small title in logo,
 0% for others.
@@ -69,13 +69,11 @@ dark blue (#164570)
 
 ### structure
 
-margin:
-edit in wordpress:
 
 padding:
 We apply padding to both left and right, which make the page tidy and have better viewing experience.
 left: 5%
 right: 5%
 
-responsive header for desktop screen with less pixel on width.
+responsive header: this make different desktop screen with less pixel on width able to view the webpage
 
