@@ -22,7 +22,7 @@ Look inside the theme folder, we have multiple files and folder, each one of con
 display. These files are crucial to change and update the theme. Below is a summary and explanation for the most
 important files and sub-folders :
 
-- BLC-theme
+- BaizonnLearningCentretheme
     - templates (sub-folder): this folder contain html templates that used to generate the theme of all pages.
     - page.html: This is the theme template we used although it doesn't contain the actual footer and navigation bar
       which is load from the theme parts, it defines the general structure and layout of the theme.
