@@ -14,10 +14,7 @@ found below.
 
 ## Theme Origin
 
-Our theme originated from the default theme twenty-twenty-two, the default theme contains some basic functionality, then
-we use WordPress theme editor combined with custom html component to create basic theme header, footer and layout. Since
-the theme editor has many restrictions compared to coding, we then modify the theme using css and html to overcome these
-restrictions, so it achieves similar effects while content is still updatable in WordPress.
+Our theme originated from the starter theme "WP Rig", we then develop the theme from this, we follow a linkedin learning tutorial which give us some guidances on how to develop our own theme on WP Rig theme.
 
 ## Theme Folder Overview
 
@@ -34,18 +31,13 @@ important files and sub-folders :
       css style later.
     - footer.html: This is the header template we define the footer, html class tag is specific, so we can define css
       style later.
-    - index.php: This is the php file merge the theme with the actual webpages, and generate the actual html, css,
-      javascript codes for individual webpages.
     - style.css: This is Cascading Style Sheets define styles for all theme file, we link and define styles for header,
       footer and other using specified class tag.
 
-## Theme features
-When designing a theme feature, we found that there were many features we needed to take into account. However, due to the information given by the customer, we think that only the most important functions are included, so that the customer can understand at once
+## Theme Design
 
-## Design Structure
+Our Design in WordPress inherit our design in figma, using figma save us lots of times, so we implement our design without doubt and concerns. The overall style of the follow a simplism approach, therefore we use a bold header design and footer design to make vistor interest in our website, thus may purchase tutoring services.
 
-The Design in WordPress inherit our design in figma, using figma save us lots of times, so we implement our design
-without doubt and concerns.
 
 ### Typology
 
