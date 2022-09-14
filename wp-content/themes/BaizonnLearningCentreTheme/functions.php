@@ -1,72 +1,67 @@
 <?php
 /**
- * WP Rig functions and definitions
- *
- * This file must be parseable by PHP 5.2.
+ * Twenty Twenty-Two functions and definitions
  *
  * @link https://developer.wordpress.org/themes/basics/theme-functions/
  *
- * @package wp_rig
+ * @package WordPress
+ * @subpackage Twenty_Twenty_Two
+ * @since Twenty Twenty-Two 1.0
  */
 
-define( 'WP_RIG_MINIMUM_WP_VERSION', '4.7' );
-define( 'WP_RIG_MINIMUM_PHP_VERSION', '7.0' );
 
-// Bail if requirements are not met.
-if ( version_compare( $GLOBALS['wp_version'], WP_RIG_MINIMUM_WP_VERSION, '<' ) || version_compare( phpversion(), WP_RIG_MINIMUM_PHP_VERSION, '<' ) ) {
-	require get_template_directory() . '/inc/back-compat.php';
-	return;
-}
+if ( ! function_exists( 'twentytwentytwo_support' ) ) :
 
-// Include WordPress shims.
-require get_template_directory() . '/inc/wordpress-shims.php';
-
-// Setup autoloader (via Composer or custom).
-if ( file_exists( get_template_directory() . '/vendor/autoload.php' ) ) {
-	require get_template_directory() . '/vendor/autoload.php';
-} else {
 	/**
-	 * Custom autoloader function for theme classes.
+	 * Sets up theme defaults and registers support for various WordPress features.
 	 *
-	 * @access private
+	 * @since Twenty Twenty-Two 1.0
 	 *
-	 * @param string $class_name Class name to load.
-	 * @return bool True if the class was loaded, false otherwise.
+	 * @return void
 	 */
-	function _wp_rig_autoload( $class_name ) {
-		$namespace = 'WP_Rig\WP_Rig';
+	function twentytwentytwo_support() {
 
-		if ( strpos( $class_name, $namespace . '\\' ) !== 0 ) {
-			return false;
-		}
+		// Add support for block styles.
+		add_theme_support( 'wp-block-styles' );
 
-		$parts = explode( '\\', substr( $class_name, strlen( $namespace . '\\' ) ) );
+		// Enqueue editor styles.
+		add_editor_style( 'style.css' );
 
-		$path = get_template_directory() . '/inc';
-		foreach ( $parts as $part ) {
-			$path .= '/' . $part;
-		}
-		$path .= '.php';
-
-		if ( ! file_exists( $path ) ) {
-			return false;
-		}
-
-		require_once $path;
-
-		return true;
 	}
-	spl_autoload_register( '_wp_rig_autoload' );
-}
 
-// Load the `wp_rig()` entry point function.
-require get_template_directory() . '/inc/functions.php';
+endif;
 
-/***************************************test**************************************************/
+add_action( 'after_setup_theme', 'twentytwentytwo_support' );
 
+if ( ! function_exists( 'twentytwentytwo_styles' ) ) :
 
+	/**
+	 * Enqueue styles.
+	 *
+	 * @since Twenty Twenty-Two 1.0
+	 *
+	 * @return void
+	 */
+	function twentytwentytwo_styles() {
+		// Register theme stylesheet.
+		$theme_version = wp_get_theme()->get( 'Version' );
 
-/*******************************************test*********************************************/
-// Initialize the theme.
-call_user_func( 'WP_Rig\WP_Rig\wp_rig' );
+		$version_string = is_string( $theme_version ) ? $theme_version : false;
+		wp_register_style(
+			'twentytwentytwo-style',
+			get_template_directory_uri() . '/style.css',
+			array(),
+			$version_string
+		);
 
+		// Enqueue theme stylesheet.
+		wp_enqueue_style( 'twentytwentytwo-style' );
+
+	}
+
+endif;
+
+add_action( 'wp_enqueue_scripts', 'twentytwentytwo_styles' );
+
+// Add block patterns
+require get_template_directory() . '/inc/block-patterns.php';
