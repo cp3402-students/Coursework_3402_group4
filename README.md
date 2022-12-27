@@ -19,11 +19,11 @@ Resources: This folder contain the modified images, icons and design prototypes 
 
 This folder contains the newest WordPress content includes WordPress gallery, WordPress theme and WordPress plugins.
 
-#### 3. [Group Plan:]()
+#### 3. [Group Plan:](https://trello.com/invite/b/3eQpABJc/18571b51ddd5033f7eb19ff4cd5bc135/cp3402-cms)
 
 this link to our planning document which include objectives, success evaluation, target audience, person of the project.
 
-#### 4. [Group Agreement and Contacts:]()
+#### 4. [Group Agreement and Contacts:](https://docs.google.com/document/d/1URSAUZzCYVP14PN3UjesQ4vsxhng8cvJZWS3jXOpsNk/edit?usp=sharing)
 
 This link to agreement document that include skills of members, method and tool used for communication,
 how to deal when problems related to teamwork, and schedule for our meeting.
