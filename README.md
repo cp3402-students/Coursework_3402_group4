@@ -5,6 +5,11 @@ This includes contents as a database files, a custom theme, and layouts and appl
 plugins.
 The project is completed by CP3402 students at James Cook University Singapore Campus in 2022 SP52.
 
+
+## Video link
+[https://youtu.be/FaDTt1tyhBo](https://youtu.be/FaDTt1tyhBo)
+
+
 ## Project Contents
 
 This is a list of contents contained in the project with their hyperlink and purpose:
